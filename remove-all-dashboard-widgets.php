@@ -10,7 +10,7 @@
  *
  */
  
-function remove_dashboard_widgets() {
+function wpfh_remove_dashboard_widgets() {
 	global $wp_meta_boxes;
 	unset( $wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press'] );
 	unset( $wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links'] );
@@ -22,4 +22,4 @@ function remove_dashboard_widgets() {
 	unset( $wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary'] );
 	remove_meta_box( 'dashboard_activity', 'dashboard', 'normal' );
 }
-add_action( 'wp_dashboard_setup', 'remove_dashboard_widgets' ); 
+add_action( 'wp_dashboard_setup', 'wpfh_remove_dashboard_widgets' ); 
