@@ -1,2 +1,2 @@
 # WP without a plugin
-Contains a list of useful WordPress code snippits to create functions without a plugin.
+A list of useful WordPress code snippets to create functions without the need of plugins.
