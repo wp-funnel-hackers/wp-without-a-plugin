@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Removal All Dashboard Widgets
+ * Plugin Name: Remove WordPress Page Columns
  * Plugin URI: https://wpfunnelhackers.com/wordpress/plugins
- * Description: Removal All Dashboard Widgets
+ * Description: Remove WordPress Page Columns
  * Version: 1.0.0
  * Author: WP Funnel Hackers
  * Author URI: https://wpfunnelhackers.com
